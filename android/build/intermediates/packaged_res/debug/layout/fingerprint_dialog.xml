@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fingerprint_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/fingerprint_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/radius"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fingerprint_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="This is title"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#000000"
+        android:fontWeight="500"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/fingerprint_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="this is subtitle"
+        android:textColor="#555555"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/fingerprint_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:text="fingerprint_error"
+        android:textColor="#F00"
+        android:textSize="14dp"/>
+
+
+    <ImageView
+        android:id="@+id/fingerprint_icon"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_fp_40px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#23a833"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Cancel"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:textAllCaps="false"
+        android:background="#00FFFFFF"
+        android:layout_marginBottom="15dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#23a833"/>
+    </LinearLayout>
+
+</RelativeLayout>

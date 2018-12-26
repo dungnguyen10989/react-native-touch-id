@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="image" type="color">#00ff00</item>
+    <item name="splashBackground" type="color">#0C8330FF</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+    </style>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
