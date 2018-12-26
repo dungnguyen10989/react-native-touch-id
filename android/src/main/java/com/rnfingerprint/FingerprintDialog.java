@@ -147,7 +147,7 @@ public class FingerprintDialog extends DialogFragment implements FingerprintHand
         }
 
         if (config.hasKey("imageColor")) {
-            this.imageColor = config.getInt("imageColor");
+            this.imageColor = R.color.image;
         }
 
         if (config.hasKey("imageErrorColor")) {
